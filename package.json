@@ -1,0 +1,24 @@
+{
+  "name": "json-to-geo",
+  "version": "0.1.0",
+  "description": "Convert JSON objects into GeoJSON features",
+  "bin": {
+    "json-to-geo": "lib/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "keywords": [
+    "generator-npm-pasta"
+  ],
+  "author": "Rodolfo Wilhelmy",
+  "license": "ISC",
+  "repository": "Rodolfo Wilhelmy/json-to-geo",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
