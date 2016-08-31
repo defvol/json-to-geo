@@ -1,0 +1,20 @@
+{
+	"_id": "571e4c002f232201006c6cac",
+	"producto": "TORTILLA DE MAIZ",
+	"presentacion": "1 KG. GRANEL",
+	"marca": "S/M",
+	"categoria": "TORTILLAS Y DERIVADOS DEL MAIZ",
+	"catalogo": "BASICOS",
+	"precio": "11.90",
+	"fechaRegistro": "2015-02-10 00:00:00.000",
+	"cadenaComercial": "HIPERMERCADO SORIANA",
+	"giro": "TIENDA DE AUTOSERVICIO",
+	"rfc": "",
+	"razonSocial": "",
+	"nombreComercial": "SORIANA HIPER SUCURSAL CALAFIA",
+	"direccion": "BLVD. ADOLFO LOPEZ MATEOS 1100, ESQ. CALAFIA, COL. ZONA INDUSTRIAL, CP. 21000",
+	"estado": "BAJA CALIFORNIA",
+	"municipio": "MEXICALI",
+	"latitud": "32.641719",
+	"longitud": "-115.469582"
+}

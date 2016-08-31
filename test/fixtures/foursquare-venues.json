@@ -1,0 +1,1763 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "57c63303498e78d449981c2c"
+  },
+  "notifications": [
+    {
+      "type": "notificationTray",
+      "item": {
+        "unreadCount": 0
+      }
+    }
+  ],
+  "response": {
+    "venues": [
+      {
+        "id": "430d0a00f964a5203e271fe3",
+        "name": "Brooklyn Bridge Park",
+        "contact": {
+          "phone": "2128033822",
+          "formattedPhone": "(212) 803-3822",
+          "twitter": "nycparks",
+          "facebook": "104475634308",
+          "facebookUsername": "BartowPell",
+          "facebookName": "Bartow-Pell Mansion Museum"
+        },
+        "location": {
+          "address": "Main St",
+          "crossStreet": "Plymouth St",
+          "lat": 40.70303245363086,
+          "lng": -73.99389265510275,
+          "distance": 616,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Main St (Plymouth St)",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park",
+            "pluralName": "Parks",
+            "shortName": "Park",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/park_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 45674,
+          "usersCount": 27099,
+          "tipCount": 326
+        },
+        "url": "http:\\/\\/nyc.gov\\/parks",
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 5,
+          "summary": "5 people are here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 5,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [
+          {
+            "id": "556df7e1a7c82e6b724d822e"
+          }
+        ],
+        "hasPerk": false
+      },
+      {
+        "id": "51eabef6498e10cf3aea7942",
+        "name": "Brooklyn Bridge Park - Pier 2",
+        "contact": {},
+        "location": {
+          "address": "Furman St",
+          "crossStreet": "Brooklyn Bridge Park Greenway",
+          "lat": 40.69957016220183,
+          "lng": -73.99793274204788,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69957016220183,
+              "lng": -73.99793274204788
+            }
+          ],
+          "distance": 180,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Furman St (Brooklyn Bridge Park Greenway)",
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park",
+            "pluralName": "Parks",
+            "shortName": "Park",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/park_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3166,
+          "usersCount": 2342,
+          "tipCount": 19
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4a32c3f9f964a5208c9a1fe3",
+        "name": "Manhattan Bridge",
+        "contact": {
+          "twitter": "nyc_dot",
+          "facebook": "166279802886",
+          "facebookName": "NYC DOT"
+        },
+        "location": {
+          "address": "Manhattan Bridge",
+          "lat": 40.706799110400006,
+          "lng": -73.99030208587646,
+          "distance": 1114,
+          "postalCode": "10002",
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Manhattan Bridge",
+            "New York, NY 10002"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1df941735",
+            "name": "Bridge",
+            "pluralName": "Bridges",
+            "shortName": "Bridge",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/bridge_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 133109,
+          "usersCount": 26684,
+          "tipCount": 194
+        },
+        "url": "http:\\/\\/www.nyc.gov\\/dot",
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 7,
+          "summary": "7 people are here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 7,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [
+          {
+            "id": "556a2f99a7c8957d73d43f24"
+          }
+        ],
+        "hasPerk": false
+      },
+      {
+        "id": "4bc24023461576b056237d32",
+        "name": "Financial District",
+        "contact": {},
+        "location": {
+          "lat": 40.70683751846749,
+          "lng": -74.01059189432631,
+          "distance": 1174,
+          "postalCode": "10038",
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "New York, NY 10038"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4f2a25ac4b909258e854f55f",
+            "name": "Neighborhood",
+            "pluralName": "Neighborhoods",
+            "shortName": "Neighborhood",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/neighborhood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 49898,
+          "usersCount": 18181,
+          "tipCount": 23
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 4,
+          "summary": "4 people are here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 4,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "42377700f964a52024201fe3",
+        "name": "Brooklyn Heights Promenade",
+        "contact": {},
+        "location": {
+          "address": "Columbia Heights",
+          "crossStreet": "btwn Remsen & Orange",
+          "lat": 40.69829137715981,
+          "lng": -73.99663209915161,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69829137715981,
+              "lng": -73.99663209915161
+            }
+          ],
+          "distance": 342,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Columbia Heights (btwn Remsen & Orange)",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park",
+            "pluralName": "Parks",
+            "shortName": "Park",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/park_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 23558,
+          "usersCount": 11499,
+          "tipCount": 201
+        },
+        "url": "http:\\/\\/nyharborparks.org\\/visit\\/brhe.html",
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 3,
+          "summary": "3 people are here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 3,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4f15b382e4b0725660ea9f31",
+        "name": "Phil's Steaks",
+        "contact": {
+          "phone": "9175840540",
+          "formattedPhone": "(917) 584-0540",
+          "twitter": "philssteaks"
+        },
+        "location": {
+          "lat": 40.75602048227277,
+          "lng": -73.98316650007625,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.75602048227277,
+              "lng": -73.98316650007625
+            }
+          ],
+          "distance": 6395,
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "New York, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cb941735",
+            "name": "Food Truck",
+            "pluralName": "Food Trucks",
+            "shortName": "Food Truck",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/food\\/streetfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1904,
+          "usersCount": 1188,
+          "tipCount": 24
+        },
+        "url": "http:\\/\\/www.philssteaks.com\\/",
+        "hasMenu": true,
+        "delivery": {
+          "id": "27401",
+          "url": "http:\\/\\/www.seamless.com\\/food-delivery\\/restaurant.27401.r?a=1026&utm_source=Foursquare&utm_medium=affiliate&utm_campaign=SeamlessOrderDeliveryLink",
+          "provider": {
+            "name": "seamless"
+          }
+        },
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https:\\/\\/foursquare.com\\/v\\/phils-steaks\\/4f15b382e4b0725660ea9f31\\/menu",
+          "mobileUrl": "https:\\/\\/foursquare.com\\/v\\/4f15b382e4b0725660ea9f31\\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c3c76bd7f49c9b65de16be3",
+        "name": "Michael\\u2019s Food Cart",
+        "contact": {
+          "phone": "7189029951",
+          "formattedPhone": "(718) 902-9951"
+        },
+        "location": {
+          "address": "South Street",
+          "crossStreet": "Corner of South St and Wall St",
+          "lat": 40.70013381479425,
+          "lng": -73.99983798076666,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.70013381479425,
+              "lng": -73.99983798076666
+            }
+          ],
+          "distance": 20,
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "South Street (Corner of South St and Wall St)",
+            "New York, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cb941735",
+            "name": "Food Truck",
+            "pluralName": "Food Trucks",
+            "shortName": "Food Truck",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/food\\/streetfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 50,
+          "usersCount": 39,
+          "tipCount": 1
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b5882e7f964a520665b28e3",
+        "name": "180 Maiden Lane",
+        "contact": {},
+        "location": {
+          "address": "180 Maiden Ln",
+          "lat": 40.70549761404518,
+          "lng": -74.00563966022919,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.70549761404518,
+              "lng": -74.00563966022919
+            }
+          ],
+          "distance": 775,
+          "postalCode": "10038",
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "180 Maiden Ln",
+            "New York, NY 10038"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 4466,
+          "usersCount": 445,
+          "tipCount": 2
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "56f33e4ccd1063407d9d7e07",
+        "name": "Abt SRBI",
+        "contact": {},
+        "location": {
+          "address": "275 7th st s",
+          "crossStreet": "w 25th & 26th",
+          "lat": 40.697623706426135,
+          "lng": -73.99482234174388,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.697623706426135,
+              "lng": -73.99482234174388
+            }
+          ],
+          "distance": 510,
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "275 7th st s (w 25th & 26th)",
+            "New York, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d124941735",
+            "name": "Office",
+            "pluralName": "Offices",
+            "shortName": "Office",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 52,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 1,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4ebac60a0cd6904066e4108f",
+        "name": "Brookyn Bridge Park Greenway",
+        "contact": {},
+        "location": {
+          "address": "Fulton Ferry Landing to Atlantic Ave.",
+          "lat": 40.70079974566844,
+          "lng": -73.99695716067038,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.70079974566844,
+              "lng": -73.99695716067038
+            }
+          ],
+          "distance": 271,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Fulton Ferry Landing to Atlantic Ave.",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park",
+            "pluralName": "Parks",
+            "shortName": "Park",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/park_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 681,
+          "usersCount": 445,
+          "tipCount": 1
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "53ff2935498e161412b3e871",
+        "name": "Brooklyn Bridge Park - Pier 2 Yoga Court",
+        "contact": {},
+        "location": {
+          "lat": 40.699657951708524,
+          "lng": -73.99976911704667,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.699657951708524,
+              "lng": -73.99976911704667
+            }
+          ],
+          "distance": 42,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d102941735",
+            "name": "Yoga Studio",
+            "pluralName": "Yoga Studios",
+            "shortName": "Yoga Studio",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/shops\\/gym_yogastudio_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 8,
+          "usersCount": 5,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5054eb43e4b04ed4f0dd1b30",
+        "name": "La cabana",
+        "contact": {},
+        "location": {
+          "lat": 40.69875,
+          "lng": -73.99953,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69875,
+              "lng": -73.99953
+            }
+          ],
+          "distance": 144,
+          "cc": "US",
+          "state": "New York",
+          "country": "United States",
+          "formattedAddress": [
+            "New York"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d154941735",
+            "name": "Cuban Restaurant",
+            "pluralName": "Cuban Restaurants",
+            "shortName": "Cuban",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/food\\/cuban_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 6,
+          "usersCount": 6,
+          "tipCount": 1
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4cb92bdc7148f04d9336d5ab",
+        "name": "Livys apartment !",
+        "contact": {},
+        "location": {
+          "address": "95 Wall St",
+          "crossStreet": "Water st",
+          "lat": 40.700249,
+          "lng": -74.001442,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.700249,
+              "lng": -74.001442
+            }
+          ],
+          "distance": 124,
+          "postalCode": "10005",
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "95 Wall St (Water st)",
+            "New York, NY 10005"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1a3941735",
+            "name": "College Residence Hall",
+            "pluralName": "College Residence Halls",
+            "shortName": "Residence Hall",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/education\\/residencehall_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "53af4e97498e0bd7ae45c926",
+        "name": "Brooklyn Bridge Park Skating Rink",
+        "contact": {},
+        "location": {
+          "address": "Pier 2",
+          "lat": 40.69974994036211,
+          "lng": -73.998409053504,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69974994036211,
+              "lng": -73.998409053504
+            }
+          ],
+          "distance": 137,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Pier 2",
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "52e81612bcbc57f1066b79e9",
+            "name": "Roller Rink",
+            "pluralName": "Roller Rinks",
+            "shortName": "Roller Rink",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/arts_entertainment\\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 216,
+          "usersCount": 201,
+          "tipCount": 1
+        },
+        "url": "http:\\/\\/www.brooklynbridgepark.org\\/activities\\/roller-skating",
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d9788e5daec224b4642333e",
+        "name": "Dr Shur",
+        "contact": {},
+        "location": {
+          "address": "140 Elgar Pl",
+          "lat": 40.698978,
+          "lng": -74.00043,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.698978,
+              "lng": -74.00043
+            }
+          ],
+          "distance": 119,
+          "postalCode": "10475",
+          "cc": "US",
+          "city": "Bronx",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "140 Elgar Pl",
+            "Bronx, NY 10475"
+          ]
+        },
+        "categories": [],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4dac4c974df01c19b1b0fc82",
+        "name": "Internal Medicine Associates",
+        "contact": {},
+        "location": {
+          "address": "530 1st Ave",
+          "crossStreet": "30th street",
+          "lat": 40.698978,
+          "lng": -74.00043,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.698978,
+              "lng": -74.00043
+            }
+          ],
+          "distance": 119,
+          "postalCode": "10016",
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "530 1st Ave (30th street)",
+            "New York, NY 10016"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d177941735",
+            "name": "Doctor's Office",
+            "pluralName": "Doctor's Offices",
+            "shortName": "Doctor's Office",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/medical_doctorsoffice_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3,
+          "usersCount": 3,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4f2c1bbae4b0ccfb1d99b510",
+        "name": "kk hair salon",
+        "contact": {},
+        "location": {
+          "lat": 40.69956588745117,
+          "lng": -74.00108337402344,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69956588745117,
+              "lng": -74.00108337402344
+            }
+          ],
+          "distance": 103,
+          "cc": "US",
+          "state": "New York",
+          "country": "United States",
+          "formattedAddress": [
+            "New York"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d110951735",
+            "name": "Salon \\/ Barbershop",
+            "pluralName": "Salons \\/ Barbershops",
+            "shortName": "Salon \\/ Barbershop",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/shops\\/salon_barber_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 2,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d2cb2c677a2a1cd02c387b7",
+        "name": "QBE",
+        "contact": {},
+        "location": {
+          "address": "80 Pine St",
+          "crossStreet": "Water St",
+          "lat": 40.698978,
+          "lng": -74.00043,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.698978,
+              "lng": -74.00043
+            }
+          ],
+          "distance": 119,
+          "postalCode": "10005",
+          "cc": "US",
+          "city": "New York",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "80 Pine St (Water St)",
+            "New York, NY 10005"
+          ]
+        },
+        "categories": [],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4cfc2f09c671721e1e74c718",
+        "name": "Deep Net",
+        "contact": {},
+        "location": {
+          "lat": 40.697052,
+          "lng": -73.997217,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.697052,
+              "lng": -73.997217
+            }
+          ],
+          "distance": 403,
+          "cc": "US",
+          "state": "New York",
+          "country": "United States",
+          "formattedAddress": [
+            "New York"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d124941735",
+            "name": "Office",
+            "pluralName": "Offices",
+            "shortName": "Office",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 16,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5091c063e4b067004bb7c784",
+        "name": "Mairl Inn",
+        "contact": {},
+        "location": {
+          "address": "6 Montague Ter",
+          "lat": 40.695481255453906,
+          "lng": -73.99794995814524,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.695481255453906,
+              "lng": -73.99794995814524
+            }
+          ],
+          "distance": 531,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "6 Montague Ter",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d954b06a243a5684965b473",
+            "name": "Residential Building (Apartment \\/ Condo)",
+            "pluralName": "Residential Buildings (Apartments \\/ Condos)",
+            "shortName": "Residential",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/apartment_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 50,
+          "usersCount": 17,
+          "tipCount": 3
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d29ff9055a8b60c949fdbc0",
+        "name": "Tok Stok",
+        "contact": {},
+        "location": {
+          "address": "Barra da Tijuca",
+          "lat": 40.7025558,
+          "lng": -73.997896,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.7025558,
+              "lng": -73.997896
+            }
+          ],
+          "distance": 335,
+          "cc": "US",
+          "city": "Rio de Janeiro",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Barra da Tijuca",
+            "Rio de Janeiro, NY"
+          ]
+        },
+        "categories": [],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "55cf901f498e52a1e4fde3cb",
+        "name": "Please Touch The Art",
+        "contact": {},
+        "location": {
+          "address": "Brooklyn Bridge Park",
+          "lat": 40.70313886114747,
+          "lng": -73.9981049029518,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.70313886114747,
+              "lng": -73.9981049029518
+            }
+          ],
+          "distance": 384,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Brooklyn Bridge Park",
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e2931735",
+            "name": "Art Gallery",
+            "pluralName": "Art Galleries",
+            "shortName": "Art Gallery",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/arts_entertainment\\/artgallery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 12,
+          "usersCount": 12,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "57aa82f3498e8edefe65be99",
+        "name": "New York Classical Theatre in Brooklyn Bridge Park",
+        "contact": {},
+        "location": {
+          "lat": 40.702055,
+          "lng": -73.996666,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.702055,
+              "lng": -73.996666
+            }
+          ],
+          "distance": 362,
+          "city": "New York",
+          "state": "New York",
+          "formattedAddress": [
+            "New York, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d137941735",
+            "name": "Theater",
+            "pluralName": "Theaters",
+            "shortName": "Theater",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/arts_entertainment\\/performingarts_theater_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "55da0841498eb79ab8fc4077",
+        "name": "Brooklyn Bridge Park Library",
+        "contact": {},
+        "location": {
+          "lat": 40.69780449823995,
+          "lng": -73.99819098334575,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69780449823995,
+              "lng": -73.99819098334575
+            }
+          ],
+          "distance": 288,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park",
+            "pluralName": "Parks",
+            "shortName": "Park",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/park_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 4,
+          "usersCount": 3,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b7c8bedf964a5202c9a2fe3",
+        "name": "160 Columbia Heights",
+        "contact": {},
+        "location": {
+          "address": "160 Columbia Hts",
+          "lat": 40.69817619576914,
+          "lng": -73.99641198067849,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69817619576914,
+              "lng": -73.99641198067849
+            }
+          ],
+          "distance": 364,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "160 Columbia Hts",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d954b06a243a5684965b473",
+            "name": "Residential Building (Apartment \\/ Condo)",
+            "pluralName": "Residential Buildings (Apartments \\/ Condos)",
+            "shortName": "Residential",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/apartment_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 202,
+          "usersCount": 31,
+          "tipCount": 1
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5473a9fe498ebe44a5d459ef",
+        "name": "Brooklyn Bridge pierhouse",
+        "contact": {},
+        "location": {
+          "lat": 40.69797151570857,
+          "lng": -73.99480512536556,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69797151570857,
+              "lng": -73.99480512536556
+            }
+          ],
+          "distance": 493,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 5,
+          "usersCount": 5,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5339a67f498ea66c3d45561a",
+        "name": "Pier 4 Beach",
+        "contact": {},
+        "location": {
+          "lat": 40.69649703108692,
+          "lng": -73.99908621715002,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69649703108692,
+              "lng": -73.99908621715002
+            }
+          ],
+          "distance": 397,
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "Brooklyn, NY"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e2941735",
+            "name": "Beach",
+            "pluralName": "Beaches",
+            "shortName": "Beach",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/parks_outdoors\\/beach_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 85,
+          "usersCount": 51,
+          "tipCount": 1
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "524096e611d281cb3d63e667",
+        "name": "110 Columbia Heights Site",
+        "contact": {},
+        "location": {
+          "address": "124 Columbia Hts",
+          "crossStreet": "Orange Street",
+          "lat": 40.69953198574533,
+          "lng": -73.99576350140552,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69953198574533,
+              "lng": -73.99576350140552
+            }
+          ],
+          "distance": 361,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "124 Columbia Hts (Orange Street)",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4deefb944765f83613cdba6e",
+            "name": "Historic Site",
+            "pluralName": "Historic Sites",
+            "shortName": "Historic Site",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/arts_entertainment\\/historicsite_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 5,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4f8a62ebe4b09582a33c2cbd",
+        "name": "8 Clark Street",
+        "contact": {},
+        "location": {
+          "address": "8 Clark St, Brooklyn, NY 11201",
+          "lat": 40.69815602774352,
+          "lng": -73.99598157432625,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.69815602774352,
+              "lng": -73.99598157432625
+            }
+          ],
+          "distance": 396,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "8 Clark St, Brooklyn, NY 11201",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d954b06a243a5684965b473",
+            "name": "Residential Building (Apartment \\/ Condo)",
+            "pluralName": "Residential Buildings (Apartments \\/ Condos)",
+            "shortName": "Residential",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/apartment_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 271,
+          "usersCount": 31,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4cca2784c4d06dcbec076103",
+        "name": "Broad Towers",
+        "contact": {},
+        "location": {
+          "address": "75A Willow St",
+          "crossStreet": "Btwn Orange and Pineapple",
+          "lat": 40.698853,
+          "lng": -73.995031,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 40.698853,
+              "lng": -73.995031
+            }
+          ],
+          "distance": 438,
+          "postalCode": "11201",
+          "cc": "US",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "United States",
+          "formattedAddress": [
+            "75A Willow St (Btwn Orange and Pineapple)",
+            "Brooklyn, NY 11201"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/building\\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 37,
+          "usersCount": 6,
+          "tipCount": 1
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1472606979",
+        "venueChains": [],
+        "hasPerk": false
+      }
+    ],
+    "confident": false
+  }
+}
