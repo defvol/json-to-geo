@@ -1,6 +1,12 @@
 # json-to-geo
 
-Convert JSON objects into GeoJSON features
+Convert JSON objects into GeoJSON features.
+
+In the box:
+
+- **An accessor function**: You can specify an accessor function to extract coordinates from custom locations, or leave this empty and let the module look for common property names.
+- **Path to feature objects**: If the array of objects is in a deep property, you can specify a path string, e.g. `response.rows.*`. See [JSONStream](https://www.npmjs.com/package/jsonstream) for more info.
+- **Streaming interface**: For fast command-line pipelines.
 
 Input:
 
@@ -73,11 +79,11 @@ Output:
 }]
 ```
 
-Usage:
+## Usage:
 
 See [example.js](https://github.com/rodowi/json-to-geo/blob/master/example.js) or run `json-to-geo -h`.
 
-From Javascript:
+### From Javascript:
 
 ```js
 var jgeo = require('json-to-geo');
