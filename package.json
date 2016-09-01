@@ -10,7 +10,11 @@
     "test": "tape test/*.test.js"
   },
   "keywords": [
-    "generator-npm-pasta"
+    "generator-npm-pasta",
+    "json",
+    "geojson",
+    "streams",
+    "parser"
   ],
   "author": "Rodolfo Wilhelmy",
   "license": "ISC",
