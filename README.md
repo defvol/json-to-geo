@@ -1,3 +1,88 @@
 # json-to-geo
 
 Convert JSON objects into GeoJSON features
+
+Input:
+
+```json
+{
+	"meta": {
+		"code": 200,
+		"requestId": "57c63303498e78d449981c2c"
+	},
+	"response": {
+		"venues": [{
+			"id": "430d0a00f964a5203e271fe3",
+			"name": "Brooklyn Bridge Park",
+			"location": {
+				"address": "Main St",
+				"crossStreet": "Plymouth St",
+				"lat": 40.70303245363086,
+				"lng": -73.99389265510275
+			}
+		}, {
+			"id": "51eabef6498e10cf3aea7942",
+			"name": "Brooklyn Bridge Park - Pier 2",
+			"contact": {},
+			"location": {
+				"address": "Furman St",
+				"crossStreet": "Brooklyn Bridge Park Greenway",
+				"lat": 40.69957016220183,
+				"lng": -73.99793274204788
+			}
+		}]
+	}
+}
+```
+
+Output:
+
+```json
+[{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-73.99389265510277, 40.703032453630854]
+	},
+	"properties": {
+		"id": "430d0a00f964a5203e271fe3",
+		"name": "Brooklyn Bridge Park",
+		"location": {
+			"address": "Main St",
+			"crossStreet": "Plymouth St",
+			"lat": 40.703032453630854,
+			"lng": -73.99389265510277
+		}
+	}
+}, {
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-73.9979327420479, 40.69957016220184]
+	},
+	"properties": {
+		"id": "51eabef6498e10cf3aea7942",
+		"name": "Brooklyn Bridge Park - Pier 2",
+		"location": {
+			"address": "Furman St",
+			"crossStreet": "Brooklyn Bridge Park Greenway",
+			"lat": 40.69957016220184,
+			"lng": -73.9979327420479
+		}
+	}
+}]
+```
+
+Usage:
+
+See [example.js](https://github.com/rodowi/json-to-geo/blob/master/example.js) or run `json-to-geo -h`.
+
+From Javascript:
+
+```js
+var jgeo = require('json-to-geo');
+
+var accessor = (o) => [ o.location.lng, o.location.lat ];
+var rs = fs.createReadStream(__dirname + '/fixtures/foursquare-venues.json');
+jgeo.transform(rs, 'response.venues.*', accessor).pipe(process.stdout);
+```
