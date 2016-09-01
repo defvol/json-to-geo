@@ -19,6 +19,8 @@
     "tape": "^4.6.0"
   },
   "dependencies": {
-    "minimist": "^1.2.0"
+    "jsonstream": "^1.0.3",
+    "minimist": "^1.2.0",
+    "through2": "^2.0.1"
   }
 }
