@@ -103,10 +103,12 @@ See [example.js](https://github.com/rodowi/json-to-geo/blob/master/example.js) o
 
 ```js
 var jg = require('json-to-geo');
-var accessor = jg.buildAccessor('location.lng', 'location.lat');
 var rs = fs.createReadStream(__dirname + '/test/fixtures/foursquare-venues.json');
-jg.transform(rs, 'response.venues.*', accessor)
-  .pipe(process.stdout);
+jg.transform({
+  readable: rs,
+  path: 'response.venues.*',
+  getCoordinates: jg.buildAccessor('location.lng', 'location.lat')
+}).pipe(process.stdout);
 ```
 
 ### From the command-line
