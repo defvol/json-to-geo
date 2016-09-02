@@ -12,11 +12,11 @@ Example
 ```
 _Opens geojson.io with pins for every venue returned by Foursquare Venues API. Note: [nd-geojson](https://github.com/rodowi/nd-geojson) wraps line-delimited GeoJSON features in a FeatureCollection._
 
-In the box:
+## Install
 
-- **An accessor function**: You can specify an accessor function to extract coordinates from custom locations, or leave this empty and let the module look for common property names.
-- **Path to feature objects**: If the array of objects is in a deep property, you can specify a path string, e.g. `response.rows.*`. See [JSONStream](https://www.npmjs.com/package/jsonstream) for more info.
-- **Streaming interface**: For fast command-line pipelines.
+`npm install -g json-to-geo`
+
+## How it works
 
 Input:
 
@@ -88,6 +88,12 @@ Output:
 	}
 }]
 ```
+
+In the box:
+
+- **An accessor function**: You can specify an accessor function to extract coordinates from custom locations, or leave this empty and let the module look for common property names.
+- **Path to feature objects**: If the array of objects is in a deep property, you can specify a path string, e.g. `response.rows.*`. See [JSONStream](https://www.npmjs.com/package/jsonstream) for more info.
+- **Streaming interface**: For fast command-line pipelines.
 
 ## Usage:
 
