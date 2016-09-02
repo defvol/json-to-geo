@@ -102,6 +102,7 @@ In the box:
 - **An accessor function**: You can specify an accessor function to extract coordinates from custom locations, or leave this empty and let the module look for common property names.
 - **Path to feature objects**: If the array of objects is in a deep property, you can specify a path string, e.g. `response.rows.*`. See [JSONStream](https://www.npmjs.com/package/jsonstream) for more info.
 - **Streaming interface**: For fast command-line pipelines.
+- **Support for new-line delimited JSON**: Set the flag --ndj to parse a stream of objects delimited by `\n` characters.
 
 ## Usage:
 
