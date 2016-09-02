@@ -5,6 +5,7 @@ var Writable = require('stream').Writable;
 
 var venues = require('./fixtures/foursquare-venues.json').response.venues;
 var getCoordinates = (o) => [ o.location.lng, o.location.lat ];
+var isFloat = (f) => f.toString().match(/\d+\.\d+/);
 
 test('it converts an object to a GeoJSON feature', function (t) {
   var obj = require('./fixtures/government-dataset.json');
@@ -28,13 +29,11 @@ test('it converts an object to a GeoJSON feature', function (t) {
 test('it transforms a stream of objects to GeoJSON features', function (t) {
   t.plan(90);
 
-  var isFloat = (f) => f.toString().match(/\d+\.\d+/);
   var inNY = (s) => (['NY', 'New York'].indexOf(s) >= 0);
   var ws = new Writable;
 
   ws._write = function (chunk, enc, next) {
     var obj = JSON.parse(chunk);
-
     t.equal(obj.type, 'Feature', 'GeoJSON feature coming from the stream');
     t.true(isFloat(obj.geometry.coordinates[1]), 'Finds it latitude');
     t.true(inNY(obj.properties.location.state), 'Preserves properties');
@@ -47,6 +46,27 @@ test('it transforms a stream of objects to GeoJSON features', function (t) {
     readable: rs,
     path: 'response.venues.*',
     getCoordinates: getCoordinates
+  }).pipe(ws);
+});
+
+test('it transforms a stream of line-delimited objects', function (t) {
+  t.plan(20);
+
+  var ws = new Writable;
+
+  ws._write = function (chunk, enc, next) {
+    var obj = JSON.parse(chunk);
+
+    t.equal(obj.type, 'Feature', 'GeoJSON feature coming from the stream');
+    t.true(isFloat(obj.geometry.coordinates[1]), 'Finds it latitude');
+
+    next();
+  };
+
+  var rs = fs.createReadStream(__dirname + '/fixtures/gpx.ndjson');
+  jgeo.transform({
+    readable: rs,
+    isLineDelimited: true
   }).pipe(ws);
 });
 
