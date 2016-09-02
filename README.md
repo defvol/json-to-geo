@@ -96,11 +96,11 @@ See [example.js](https://github.com/rodowi/json-to-geo/blob/master/example.js) o
 ### From Javascript:
 
 ```js
-var jgeo = require('json-to-geo');
-
-var accessor = (o) => [ o.location.lng, o.location.lat ];
-var rs = fs.createReadStream(__dirname + '/fixtures/foursquare-venues.json');
-jgeo.transform(rs, 'response.venues.*', accessor).pipe(process.stdout);
+var jg = require('json-to-geo');
+var accessor = jg.buildAccessor('location.lng', 'location.lat');
+var rs = fs.createReadStream(__dirname + '/test/fixtures/foursquare-venues.json');
+jg.transform(rs, 'response.venues.*', accessor)
+  .pipe(process.stdout);
 ```
 
 ### From the command-line
