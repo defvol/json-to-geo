@@ -12,6 +12,14 @@ Example
 ```
 _Opens geojson.io with pins for every venue returned by Foursquare Venues API. Note: [nd-geojson](https://github.com/rodowi/nd-geojson) wraps line-delimited GeoJSON features in a FeatureCollection._
 
+```bash
+➜ cat test/fixtures/foursquare-venues.json |
+	json-to-geo --path 'response.venues.*'
+		--lng 'location.lng' --lat 'location.lat' |
+	tippecanoe -o venues
+```
+_Build vector tiles with [tippecanoe](https://github.com/mapbox/tippecanoe)._
+
 ## Install
 
 `npm install -g json-to-geo`
