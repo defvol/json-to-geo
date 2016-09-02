@@ -2,6 +2,16 @@
 
 Convert JSON objects into GeoJSON features.
 
+Example
+
+```bash
+➜ cat test/fixtures/foursquare-venues.json |
+	json-to-geo --path 'response.venues.*'
+		--lng 'location.lng' --lat 'location.lat' |
+	nd-geojson | geojsonio
+```
+_Opens geojson.io with pins for every venue returned by Foursquare Venues API. Note: [nd-geojson](https://github.com/rodowi/nd-geojson) wraps line-delimited GeoJSON features in a FeatureCollection._
+
 In the box:
 
 - **An accessor function**: You can specify an accessor function to extract coordinates from custom locations, or leave this empty and let the module look for common property names.
@@ -91,4 +101,10 @@ var jgeo = require('json-to-geo');
 var accessor = (o) => [ o.location.lng, o.location.lat ];
 var rs = fs.createReadStream(__dirname + '/fixtures/foursquare-venues.json');
 jgeo.transform(rs, 'response.venues.*', accessor).pipe(process.stdout);
+```
+
+### From the command-line
+
+```bash
+% cat file.json | json-to-geo
 ```
