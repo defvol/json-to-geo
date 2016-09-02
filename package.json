@@ -1,6 +1,6 @@
 {
   "name": "json-to-geo",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Convert JSON objects into GeoJSON features",
   "bin": {
     "json-to-geo": "lib/cli.js"
