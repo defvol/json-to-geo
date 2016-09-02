@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "jsonstream": "^1.0.3",
+    "lodash.property": "^4.4.2",
     "minimist": "^1.2.0",
     "through2": "^2.0.1"
   }

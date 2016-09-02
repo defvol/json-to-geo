@@ -45,3 +45,12 @@ test('it transforms a stream of objects to GeoJSON features', function (t) {
   var rs = fs.createReadStream(__dirname + '/fixtures/foursquare-venues.json');
   jgeo.transform(rs, 'response.venues.*', getCoordinates).pipe(ws)
 });
+
+test('it builds accessor functions from paths', function (t) {
+  var accessor = jgeo.buildAccessor('location.lng', 'location.lat');
+  var found = accessor(venues[0]);
+  var wants = [ -73.99389265510275, 40.70303245363086 ];
+  t.deepEqual(found, wants, 'the accessor finds deep properties');
+
+  t.end();
+});
