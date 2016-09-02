@@ -1,6 +1,6 @@
 {
   "name": "json-to-geo",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Convert JSON objects into GeoJSON features",
   "bin": {
     "json-to-geo": "lib/cli.js"
@@ -26,6 +26,7 @@
     "jsonstream": "^1.0.3",
     "lodash.property": "^4.4.2",
     "minimist": "^1.2.0",
+    "split2": "^2.1.0",
     "through2": "^2.0.1"
   }
 }
