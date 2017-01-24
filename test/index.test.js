@@ -87,3 +87,29 @@ test('it finds geometry type', function (t) {
   t.equal(type([[[42]]]), 'Polygon', 'or a Polygon');
   t.end();
 });
+
+test('it can build features other than Point', function (t) {
+  var obj = require('./fixtures/geometries.json');
+  var found = obj.shapes.map(s => jgeo.toGeoJSON(s, o => o.coordinates));
+  var coords = [
+    [
+      -119.86083984375,
+      35.89795019335754
+    ],
+    [
+      -120.59692382812499,
+      36.62434536776987
+    ]
+  ];
+
+  t.equal(found[0].type, 'Feature', 'is a GeoJSON feature');
+  t.equal(found[0].geometry.type, 'LineString', 'builds LineString');
+  t.equal(found[0].properties.type, 'Road', 'keeps properties');
+  t.deepEqual(found[0].geometry.coordinates, coords, 'finds coordinates');
+
+  t.equal(found[1].type, 'Feature', 'is a GeoJSON feature');
+  t.equal(found[1].geometry.type, 'Polygon', 'builds Polygon');
+  t.equal(found[1].properties.type, 'AOI', 'keeps properties');
+
+  t.end();
+});
