@@ -13,3 +13,11 @@ test('version', function (t) {
   t.true(got.match(/^\d+\.\d+\.\d+$/), 'finds basic semver in package.json');
   t.end();
 });
+
+test('array deepness', function (t) {
+  t.equal(utils.deepness(42), 0, 'just a number');
+  t.equal(utils.deepness([42]), 1, 'nested levels = 1');
+  t.equal(utils.deepness([[42]]), 2, 'nested levels = 2');
+  t.equal(utils.deepness([[[42]]]), 3, 'nested levels = 3');
+  t.end();
+});
