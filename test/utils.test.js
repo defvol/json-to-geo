@@ -16,8 +16,8 @@ test('version', function (t) {
 
 test('array deepness', function (t) {
   t.equal(utils.deepness(42), 0, 'just a number');
-  t.equal(utils.deepness([42]), 1, 'probably a point');
-  t.equal(utils.deepness([[42]]), 2, 'could be a linestring');
-  t.equal(utils.deepness([[[42]]]), 3, 'or a polygon');
+  t.equal(utils.deepness([42]), 1, 'nested levels = 1');
+  t.equal(utils.deepness([[42]]), 2, 'nested levels = 2');
+  t.equal(utils.deepness([[[42]]]), 3, 'nested levels = 3');
   t.end();
 });

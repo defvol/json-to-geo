@@ -78,3 +78,12 @@ test('it builds accessor functions from paths', function (t) {
 
   t.end();
 });
+
+test('it finds geometry type', function (t) {
+  var type = jgeo.inferGeometryType;
+  t.notOk(type(42), 'invalid coordinates perhaps');
+  t.equal(type([42]), 'Point', 'probably a Point');
+  t.equal(type([[42]]), 'LineString', 'could be a LineString');
+  t.equal(type([[[42]]]), 'Polygon', 'or a Polygon');
+  t.end();
+});
